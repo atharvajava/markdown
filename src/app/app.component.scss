@@ -1,4 +1,9 @@
+$consoleColor:black;
+$consoleTextColor:white;
 textarea{
     margin-top:50px;
     width:350px;
+    background-color:$consoleColor;
+    color:$consoleTextColor;
+    font-family: 'Inconsolata', monospace;
 }
